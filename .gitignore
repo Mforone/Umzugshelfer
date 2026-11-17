@@ -1,0 +1,25 @@
+# Abhängigkeiten & Build
+node_modules/
+dist/
+
+# Gebaute Oberfläche (entsteht mit: cd quellcode && npm run build)
+app/index.html
+app/ui.js
+app/ui.css
+app/ui.png
+
+# Persönliche Daten – niemals ins Repo
+daten/
+anhaenge/
+
+# Electron-Laufzeit (entsteht mit: cd quellcode && npm run paket)
+/*.exe
+/*.dll
+/*.pak
+/*.bin
+/*.dat
+/locales/
+/resources/
+/LICENSES.chromium.html
+/version
+/vk_swiftshader_icd.json

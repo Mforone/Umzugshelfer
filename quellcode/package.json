@@ -1,0 +1,24 @@
+{
+  "name": "umzugsplaner-oberflaeche",
+  "version": "1.0.0",
+  "description": "Umzugsplaner: Oberfläche (Svelte 5 + Vite, baut nach ../app) und Paket-Skript für Windows",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "paket": "vite build && node paket-bauen.mjs"
+  },
+  "devDependencies": {
+    "@electron/asar": "^4.3.2",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "extract-zip": "^2.0.1",
+    "pe-library": "^2.0.3",
+    "resedit": "^3.1.1",
+    "svelte": "^5.57.3",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "@lucide/svelte": "^1.74.0"
+  },
+  "private": true,
+  "type": "module"
+}
